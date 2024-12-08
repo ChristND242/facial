@@ -1,0 +1,17 @@
+[theme]
+base = "dark"  # or "light",
+primaryColor = "#1E90FF"
+backgroundColor = "#2E2E2E"
+secondaryBackgroundColor = "#3E3E3E"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false  # Disable usage statistics
+
+[server]
+enableXsrfProtection = false  # Disable Cross-Site Request Forgery Protection
+hide_streamlit_markers = true
+
+[ui]
+hide_streamlit_branding = true  # Hide the "Made with Streamlit" footer
